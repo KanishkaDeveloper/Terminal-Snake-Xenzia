@@ -1,4 +1,4 @@
-Terminal Snake Game (C + ncurses)
+### Terminal Snake Game (C + ncurses)
 
 A fully interactive Snake Game built in C using the ncurses library, featuring multiple game modes, save/load system, and dynamic obstacles.
 

@@ -22,7 +22,7 @@ How to Play the Game:
   2.4 Hardcore Mode: Obstacles spawn as snake length increases. First two obstacles are vertical static walls, after that moving obstacles spawn and if snake touches obstacle, the game is over again.
   
   Controls: 
-   Key	           Action
+  Key	           Action
   W / UP_ARROW	   Move Up (in game and in menu)
   A / LEFT_ARROW   Move Left
   S / DOWN_ARROW   Move Down (in game and in menu)

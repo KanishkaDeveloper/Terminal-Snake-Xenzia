@@ -3,8 +3,7 @@ Terminal Snake Game (C + ncurses)
 A fully interactive Snake Game built in C using the ncurses library, featuring multiple game modes, save/load system, and dynamic obstacles.
 
 How to Run:
-1. Compile
-make run
+1. Type make run in terminal
 2. Run the game
 ./snake
 

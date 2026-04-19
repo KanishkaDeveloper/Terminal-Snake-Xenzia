@@ -10,7 +10,7 @@ make run
 
 Gameplay Overview:
 1. The game starts with a menu interface
-2. Navigate menus using arrow keys
+2. Navigate menus using UP_ARROW and DOWN_ARROW
 3. Press ENTER to select an option
 
 How to Play the Game:

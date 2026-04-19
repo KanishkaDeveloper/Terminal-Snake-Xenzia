@@ -22,14 +22,14 @@ How to Play the Game:
   2.4 Hardcore Mode: Obstacles spawn as snake length increases. First two obstacles are vertical static walls, after that moving obstacles spawn and if snake touches obstacle, the game is over again.
   
   Controls: 
-  Key	           Action
-  W / UP_ARROW	   Move Up (in game and in menu)
-  A / LEFT_ARROW   Move Left
-  S / DOWN_ARROW   Move Down (in game and in menu)
-  D / RIGHT_ARROW  Move Right 
-  P	               Pause / Resume
-  Q	               Quit Game
-  ENTER_KEY        When a selector is highlighting an option in a menu and ENTER_KEY is pressed, that option is executed.
+  Key	               Action
+  1. W / UP_ARROW    Move Up
+  2. A / LEFT_ARROW  Move Left
+  3. S / DOWN_ARROW  Move Down
+  4. D / RIGHT_ARROW Move Right 
+  5. P	             Pause / Resume
+  6. Q	             Quit Game
+  7. ENTER_KEY       When a selector is highlighting an option in a menu and ENTER_KEY is pressed, that option is executed.
 
 3. If p is pressed, game pauses, and shows menu. If p is pressed again in menu or when Resume is chosen, it unpauses. If Restart is chosen, it starts a new game again of same difficulty. If Save And Exit is is chosen, it shows a menu for a slot. If slot is chosen and it saves the game in that slot and then returns to starting menu. If Quit is chosen, the game quits.
 

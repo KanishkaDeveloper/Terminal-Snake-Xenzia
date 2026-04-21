@@ -15,9 +15,9 @@ int startScreen(int h, int w) {
     while(1) {
         clear();
         box(stdscr,0,0);
-
+        attron(A_BOLD);
         mvprintw(h/2 - 2, w/2 - 5, "WELCOME TO SNAKE XENZIA");
-
+        attroff(A_BOLD);
         for (int i = 0; i < 3; i++) {
             if (i == menuIndex) {
                 attron(A_REVERSE);

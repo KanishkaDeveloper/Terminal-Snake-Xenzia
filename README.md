@@ -13,6 +13,7 @@ A fully interactive Snake Game built in C using the ncurses library, featuring m
 1. The game starts with a menu interface  
 2. Navigate menus using UP_ARROW and DOWN_ARROW  
 3. Press ENTER to select an option  
+4. The game is best for playing in VS Code Terminal. 
 
 ## How to Play the Game
 
@@ -43,6 +44,8 @@ If Quit is chosen, then game quits.
 
 5. In starting menu, if Resume game is chosen, then it asks for slot to load game from and starts game exactly from that saved slot.  
 If quit is chosen, the game quits.  
+
+6. Type `make clean` in terminal to remove the object files, library and executable.
 
 ## Notable Features
 

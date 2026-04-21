@@ -12,4 +12,5 @@ void addBack(Node** head, int x, int y);
 int inSnake(int x,int y, Node*head);
 int checkCollision(int x, int y, Node* head);
 int snakeLength(Node* snake);
+void freeSnake(Node* snake);
 #endif

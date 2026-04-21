@@ -66,6 +66,7 @@ int runGame(int h, int w,int* score1){
         if(ch == 'q') {
             *score1 = score;
             saveHighScore(*score1);
+            freeSnake(snake);
             return EXIT_GAME;
         }
         if (ch == 'p') {
@@ -127,6 +128,7 @@ int runGame(int h, int w,int* score1){
                     else if(menuIndex==1){
                         *score1=score;
                         saveHighScore(*score1);
+                        freeSnake(snake);
                         return RESTART;
                     }
                     else if(menuIndex==2) {
@@ -134,11 +136,13 @@ int runGame(int h, int w,int* score1){
                         saveGame(slot,snake,dx,dy,food_x,food_y,score,obstacleCount,obstacles);
                         *score1=score;
                         saveHighScore(*score1);
+                        freeSnake(snake);
                         return SAVE_EXIT;
                     }
                     else if(menuIndex==3) {
                         *score1=score;
                         saveHighScore(*score1);
+                        freeSnake(snake);
                         return EXIT_GAME;
                     }
                 }
@@ -147,6 +151,8 @@ int runGame(int h, int w,int* score1){
                 }
                 else if(ch == 'q') {
                     *score1=score;
+                    saveHighScore(*score1);
+                    freeSnake(snake);
                     return EXIT_GAME;
                 }
                 usleep(80000);
@@ -199,6 +205,7 @@ int runGame(int h, int w,int* score1){
         {
             *score1=score;
             saveHighScore(*score1);
+            freeSnake(snake);
             return GAME_OVER;
         }
         addHead(&snake, new_x, new_y);
@@ -222,6 +229,7 @@ int runGame(int h, int w,int* score1){
     }
     *score1=score;
     saveHighScore(*score1);
+    freeSnake(snake);
     return GAME_OVER;
 }
 int runGameLoaded(int h1, int w1, Node* snake1, int dx1, int dy1, int food_x1, int food_y1, int old_score, int* score1){
@@ -269,6 +277,7 @@ int runGameLoaded(int h1, int w1, Node* snake1, int dx1, int dy1, int food_x1, i
         if(ch == 'q') {
             *score1 = score;
             saveHighScore(*score1);
+            freeSnake(snake);
             return EXIT_GAME;
         }
         if (ch == 'p') {
@@ -329,6 +338,7 @@ int runGameLoaded(int h1, int w1, Node* snake1, int dx1, int dy1, int food_x1, i
                     else if(menuIndex==1){
                         *score1=score;
                         saveHighScore(*score1);
+                        freeSnake(snake);
                         return RESTART;
                     }
                     else if(menuIndex==2) {
@@ -336,11 +346,13 @@ int runGameLoaded(int h1, int w1, Node* snake1, int dx1, int dy1, int food_x1, i
                         saveGame(slot,snake,dx,dy,food_x,food_y,score,obstacleCount,obstacles);
                         *score1=score;
                         saveHighScore(*score1);
+                        freeSnake(snake);
                         return SAVE_EXIT;
                     }
                     else if(menuIndex==3) {
                         *score1=score;
                         saveHighScore(*score1);
+                        freeSnake(snake);
                         return EXIT_GAME;
                     }
                 }
@@ -350,6 +362,7 @@ int runGameLoaded(int h1, int w1, Node* snake1, int dx1, int dy1, int food_x1, i
                 else if(ch == 'q') {
                     *score1=score;
                     saveHighScore(*score1);
+                    freeSnake(snake);
                     return EXIT_GAME;
                 }
                 usleep(80000);
@@ -401,6 +414,7 @@ int runGameLoaded(int h1, int w1, Node* snake1, int dx1, int dy1, int food_x1, i
         {
             *score1=score;
             saveHighScore(*score1);
+            freeSnake(snake);
             return GAME_OVER;
         }
         addHead(&snake, new_x, new_y);
@@ -424,5 +438,6 @@ int runGameLoaded(int h1, int w1, Node* snake1, int dx1, int dy1, int food_x1, i
     }
     *score1=score;
     saveHighScore(*score1);
+    freeSnake(snake);
     return GAME_OVER;
 }

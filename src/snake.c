@@ -83,4 +83,12 @@ int checkObstacleCollision(int x,int y){
     }
     return 0;
 }
+void freeSnake(Node* snake){
+    Node* curr = snake;
+    while(curr){
+        Node* temp = curr;
+        curr = curr->next;
+        free(temp);
+    }
+}
 

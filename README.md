@@ -21,7 +21,7 @@ A fully interactive Snake Game built in C using the ncurses library, featuring m
 2. If new game is clicked, it asks for difficulty, showing a menu.  
    2.1 Slow Mode: Green snake (Head is '@' and body is 'o') of length 1 spawns and as more food of red colour is eaten (red coloured zero icon), the length increases.  
    2.2 Medium Mode: same as Slow Mode but speed is faster than Slow Mode.  
-   2.3 Fast Mode: same as Medium Mode but speed is faster than Fast mode.  
+   2.3 Fast Mode: same as Medium Mode but speed is faster than Medium mode.  
    2.4 Hardcore Mode: Obstacles spawn as snake length increases. First two obstacles are vertical static walls, after that moving obstacles spawn and if snake touches obstacle, the game is over again.  
 
 ### Controls

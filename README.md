@@ -43,12 +43,13 @@ ENTER_KEY         When a selector is highlighting an option in a menu and ENTER_
 
 4. The game is over when snake collides with itself or an obstacle. After game is over, it displays Score, highest score throughout all played games of all difficulties and shows a menu.  
 If Restart is chosen, then again a game of previous difficulty starts.  
-If Quit is chosen, then game quits.  
+If Quit is chosen, then game quits.
+If Main Menu is chosen, the starting menu is displayed again.
 
-5. In starting menu, if Resume game is chosen, then it asks for slot to load game from and starts game exactly from that saved slot.  
+6. In starting menu, if Resume game is chosen, then it asks for slot to load game from and starts game exactly from that saved slot.  
 If quit is chosen, the game quits.  
 
-6. Type `make clean` in terminal to remove the object files, library and executable.
+7. Type `make clean` in terminal to remove the object files, library and executable.
 
 ## Notable Features
 

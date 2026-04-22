@@ -2,6 +2,9 @@
 
 A fully interactive Snake Game built in C using the ncurses library, featuring multiple game modes, save/load system, and dynamic obstacles.
 
+## Installation of ncurses
+1. Type `sudo apt upgrade` in terminal
+2. Type `sudo apt install libncurses5-dev libncursesw5-dev` for Ubuntu/Debian
 ## How to Run
 
 1. Type `make run` in terminal  
